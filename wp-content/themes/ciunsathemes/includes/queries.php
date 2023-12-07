@@ -20,7 +20,7 @@ function ciunsa_lista_revista($cantidad = -1) {
                                     <a href="<?php the_permalink();?>">
                                     <h4> <?php the_title(); ?></h4>
                                     </a>
-                                    <p><?php the_field('fecha_de_publicacion') ?></p>
+                                    <p><?php the_field('fecha_publicacion') ?></p>
                             </div>
 
                         </li>

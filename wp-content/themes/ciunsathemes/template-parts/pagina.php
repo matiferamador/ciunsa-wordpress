@@ -5,8 +5,8 @@
                     the_post_thumbnail("full", array ('class' => 'imagen-destacada'));
                 }
                 ?>
-                <p class=" informacion-revista">
-                <?php the_field('fecha_de_publicacion') ?>
+                <p class="informacion-revista">
+                <?php the_field('fecha_publicacion') ?>
                 
                 </p>
                 <?php
