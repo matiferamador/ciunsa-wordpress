@@ -152,11 +152,13 @@
         <div> <h3 class="text-center text-primario">Consejeros/as Alumnos/as</h3><div>
         <div class="autoridades">
             <div>
+            <h4 class="text-secundario">Titulares</h4>
             <?php
             the_field('consejerosas_alumnosas_titulares')
                 ?>
             </div>
             <div>
+            <h4 class="text-secundario">Suplentes</h4>
             <?php
             the_field('consejerosas_alumnosas_suplentes')
                 ?>
