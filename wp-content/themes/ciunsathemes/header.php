@@ -35,11 +35,5 @@
 
                 ?>
             </div>
-            </div>
-            <!-- <?php if(is_front_page()){ ?>
-                <div class="tagline text-center">
-                <h3 class="ml3"><?php the_field('hero_heading'); ?></h3> 
-                </div>
-        <?php } ?> -->
-
+        </div>
     </header>

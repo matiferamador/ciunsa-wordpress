@@ -65,8 +65,8 @@ function ciunsa_widgets() {
         'description'   => 'Agrega una barra para filtrar los post por categorias',
         'before_widget' => '<div class="barra">',
         'after_widget'  =>'</div>',
-        'before_title'  => '<h3 class="text-primario">',
-        'after_title'   => '</h3>',
+        'before_title'  => '<h4 class="text-primario">',
+        'after_title'   => '</h4>',
     ));
 }
 add_action('widgets_init', 'ciunsa_widgets');

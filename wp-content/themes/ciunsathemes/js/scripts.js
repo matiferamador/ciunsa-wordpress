@@ -17,14 +17,14 @@ function ciunsaWordPress() {
   
       new Swiper('.swiper', opciones);
     }
+    const hamburguer = document.querySelector('.hamburguer-menu svg')
+    hamburguer.addEventListener('click', function() {
+        const menuPrincipal = document.querySelector('.contenedor-menu');
+        menuPrincipal.classList.toggle('mostrar');
+    })
   
   }
-  const hamburger = document.querySelector('.hamburguer-menu svg')
-  hamburger.addEventListener('click', function() {
-      const menuPrincipal = document.querySelector('.contenedor-menu');
-      menuPrincipal.classList.toggle('mostrar');
-  })
-  
+
 document.addEventListener('DOMContentLoaded', ciunsaWordPress);
 
 window.onscroll = function() {
