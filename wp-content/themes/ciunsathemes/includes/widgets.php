@@ -145,4 +145,9 @@ function registrar_enlace_imagen_widget() {
 }
 
 add_action('widgets_init', 'registrar_enlace_imagen_widget');
-?>
+
+
+class busqueda_por_categoria extends WP_Widget {
+    
+
+}

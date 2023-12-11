@@ -59,5 +59,14 @@ function ciunsa_widgets() {
         'before_title'  => '<h3 class="widget-titulo">',
         'after_title'   => '</h3>',
     ));
+    register_sidebar(array(
+        'name'          => "Sidebar Barra Busqueda por Categoria",
+        'id'            => 'barraBusqueda',
+        'description'   => 'Agrega una barra para filtrar los post por categorias',
+        'before_widget' => '<div class="barra">',
+        'after_widget'  =>'</div>',
+        'before_title'  => '<h3 class="text-primario">',
+        'after_title'   => '</h3>',
+    ));
 }
 add_action('widgets_init', 'ciunsa_widgets');

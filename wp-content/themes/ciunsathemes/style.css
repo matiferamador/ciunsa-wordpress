@@ -203,10 +203,7 @@ body.home .header {
     }
 }
 
-/* 
-.menu-principal {
-    display: none;
-} */
+
 
 .hamburguer-menu:hover {
     cursor: pointer;
@@ -214,7 +211,7 @@ body.home .header {
 @media (min-width: 768px) {
     .hamburguer-menu {
         display: none;
-    }
+    } 
 }
 .contenedor-menu {
     opacity: 0;
@@ -746,4 +743,12 @@ aside .menu-menu-sidebar-container {
 .autoridad span {
     color: #273C75;
     font-weight: 700;
+}
+
+
+/* barra de buqueda por categoria post  */
+
+.screen-reader-text {
+    color: var(--secundario);
+    /* display: none; */
 }
