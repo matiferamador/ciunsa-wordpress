@@ -28,7 +28,8 @@ function ciunsa_scripts_styles () {
 
     // archivos js 
     wp_enqueue_script('swiper-js', get_template_directory_uri() . '/js/swiper-bundle.min.js', array(), '11.0.5', true);
-    wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.js', array('swiper-js'), '1.0.0', true); 
+    wp_enqueue_script('scripts', get_template_directory_uri() . '/js/scripts.js', array('swiper-js'), '1.0.0', true);
+
 }
 add_action ('wp_enqueue_scripts', 'ciunsa_scripts_styles');
 

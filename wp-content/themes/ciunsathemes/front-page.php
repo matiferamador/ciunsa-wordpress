@@ -13,7 +13,7 @@ get_header();
             <section class=" seccion contenedor">
                 <h3 class="text-secundario">Últimas Novedades</h3>
 
-                <ul class="listado-grid-novedades">
+                <ul class="listado-grid-novedades data-aos="fade-up data-aos-duration="3000">
                     <?php
                     $args = array (
                         'post_type' => 'post',
@@ -102,9 +102,8 @@ get_header();
                         ?>
                         <img src="<?php echo esc_attr( $imagen ); ?>" alt="Imagen <?php echo esc_attr($texto); ?>">
                         <p><?php echo esc_html( $texto ); ?></p>
-                    </div>
+                    </div>        
                 </div>
-    </section>
 
     <section class="seccion contenedor"> 
         <h3 class="text-secundario">Conocé Comunidad CIUNSa</h3>
