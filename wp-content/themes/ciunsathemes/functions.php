@@ -70,3 +70,55 @@ function ciunsa_widgets() {
     ));
 }
 add_action('widgets_init', 'ciunsa_widgets');
+
+
+// mejorar el linkbox
+// shortcode pdf
+function linkbox_shortcode($atts, $content = null) {
+    $atts = shortcode_atts(
+        array(
+            'href' => '',
+            'icono' => 'pdf',
+        ),
+        $atts,
+        'linkbox'
+    );
+
+    // Ruta del ícono
+    $icon_url = get_template_directory_uri() . '/img/icono-pdf.svg';
+
+    // Construir el HTML del enlace con los atributos proporcionados
+    $output = '<a href="' . esc_url($atts['href']) . '" class="box-link">';
+    $output .= '<img src="' . esc_url($icon_url) . '" alt="Icono PDF" class="w-[40px] h-[40px]">';
+    $output .= '<span>' . esc_html($content) . '</span>';
+    $output .= '</a>';
+
+    return $output;
+}
+
+add_shortcode('linkbox', 'linkbox_shortcode');
+
+// shortcode-word
+function linkbox_word_shortcode($atts, $content = null) {
+    $atts = shortcode_atts(
+        array(
+            'href' => '',
+            'icono' => 'word',
+        ),
+        $atts,
+        'linkbox_word'
+    );
+
+    // Ruta del ícono
+    $icon_url = get_template_directory_uri() . '/img/icon-word.svg';
+
+    // Construir el HTML del enlace con los atributos proporcionados
+    $output = '<a href="' . esc_url($atts['href']) . '" class="box-link">';
+    $output .= '<img src="' . esc_url($icon_url) . '" alt="Icono Word" class="w-[40px] h-[40px]">';
+    $output .= '<span>' . esc_html($content) . '</span>';
+    $output .= '</a>';
+
+    return $output;
+}
+
+add_shortcode('linkbox_word', 'linkbox_word_shortcode');

@@ -789,3 +789,18 @@ select {
     
 }
 
+/* shortcode linkbox */
+.box-link {
+    display: flex;
+    gap: 2rem;/* Se muestra como un bloque (ocupa toda la anchura disponible) */
+    align-items: center;
+    padding: 10px;           /* Relleno de 10 píxeles en todos los lados del elemento */
+    background:var(--primario);     /* Color de fondo */
+    color: #f5f6fa;          /* Color del texto */
+    text-decoration: none;   /* Sin decoración de texto (sin subrayado, por ejemplo) */
+    margin: 0 0 10px;         /* Márgenes superior e inferior de 0 píxeles, margen inferior de 10 píxeles */
+}
+.box-link:hover {
+    color: var(--secundario);
+}
+
