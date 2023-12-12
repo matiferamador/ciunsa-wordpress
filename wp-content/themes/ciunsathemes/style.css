@@ -16,7 +16,6 @@
 :root {
     /* fuentes  */
 --fuente-principal: 'Lato', sans-serif; 
-
 /* colores */
 --primario: #273C75;
 --secundario: #0097E6;
@@ -24,25 +23,22 @@
 --gris-claro:hsla(240, 3%, 86%, 0.579);
 --blanco: #fff;
 --negro: #000;
-
-
-
 }
 /* apply a natural box layout model to all elements, but allowing components to change */
 html {
     box-sizing: border-box;
     font-size: 62.5%;
-  }
+}
   *, *:before, *:after {
     box-sizing: inherit;
-  }
+}
 
 body {
     font-family: var(--fuente-principal);
     font-size: 18px;
     font-size: 1.8rem;
     line-height: 2; 
-  } 
+} 
 
 /** Headings **/
 h1, h2, h3, h4 {
@@ -170,7 +166,7 @@ body.home .header {
 }   
 
 
-.header {
+.header {   
     background-color:var(--primario);
     padding-bottom: 8rem ;
 }
@@ -767,7 +763,7 @@ aside .menu-menu-sidebar-container {
 } 
 
 .postform {
-    padding: 0.5rem 1rem;
+    padding: 1rem 1.5rem;
     border-radius: .5rem;
     background-color: var(--secundario);
     border: none;
