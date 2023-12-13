@@ -705,13 +705,12 @@ aside .menu-menu-sidebar-container {
     }
 
 }
-
 .nav-enlaces-imagenes {
     display: flex;
     flex-wrap: wrap ;
-    gap: 6rem
-    ;
+    gap: 6rem;
     justify-content: center;
+    align-items: center;
 }
 
 /* Institucional  */
