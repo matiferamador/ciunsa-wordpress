@@ -692,12 +692,12 @@ aside .menu-menu-sidebar-container {
 }
 
 .nav-enlaces-imagenes img {
-    max-width: 20rem;
+    max-width: 15rem;
 }
 
 @media (min-width: 768px){
     .nav-enlaces-imagenes img {
-        max-width: 20rem;
+        max-width: 14rem;
         filter: grayscale(100%);
     }
     .nav-enlaces-imagenes img:hover {
@@ -764,12 +764,15 @@ aside .menu-menu-sidebar-container {
 .postform {
     padding: 1rem 1.5rem;
     border-radius: .5rem;
-    background-color: var(--secundario);
+    background-color: var(--primario);
     border: none;
     color: var(--blanco);
 } 
 select {
     border: none;
+}
+.postform:hover {
+    background-color: var(--secundario);
 }
 
 @media (min-width:768px) {
@@ -783,7 +786,7 @@ select {
 
 
 .screen-reader-text {
-    color: var(--secundario);
+    color: var(--primario);
     display: none;
     
 }

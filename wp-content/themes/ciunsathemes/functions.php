@@ -116,7 +116,7 @@ function linkbox_word_shortcode($atts, $content = null) {
     $output = '<a href="' . esc_url($atts['href']) . '" class="box-link">';
     $output .= '<img src="' . esc_url($icon_url) . '" alt="Icono Word" class="w-[40px] h-[40px]">';
     $output .= '<span>' . esc_html($content) . '</span>';
-    $output .= '</a>';
+    $output .= '</a>';  
 
     return $output;
 }
