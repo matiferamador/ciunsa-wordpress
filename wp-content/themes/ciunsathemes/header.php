@@ -11,7 +11,7 @@
         <div class="contenedor barra-navegacion">
             <div class="logo">
                 <a href="<?php echo site_url('/') ?>">
-                    <img src=" <?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logotipo">
+                    <img src=" <?php echo get_template_directory_uri(); ?>/img/logo-ciunsa.png" alt="logotipo">
                 </a>
             </div>
             <div class="hamburguer-menu">
