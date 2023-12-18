@@ -2,6 +2,9 @@
         <hr>
 
         <div class="contenido-footer  contenedor">
+         
+            <p class="copyright"> <?php echo get_bloginfo('name') . " " . date('Y'); ?></p>
+            <div class="menu_footer">
             <?php
                 $args = array (
                     'theme_location' => 'menu-principal',
@@ -11,7 +14,9 @@
 
                 wp_nav_menu($args);
             ?>
-            <p class="copyright"> <?php echo get_bloginfo('name') . " " . date('Y'); ?></p>
+
+            </div>
+        
 
 
         </div>

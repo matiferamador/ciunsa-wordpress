@@ -156,7 +156,6 @@ color: var(--blanco);
     .widget-redes-sociales {
         display:block;
     }
-   
 }   
 .header {   
     background-color:var(--primario);
@@ -710,5 +709,15 @@ select {
 }
 .box-link:hover {
     color: var(--secundario);
+}
+.contenido-footer .menu_footer {
+    display: none;
+
+}
+@media(min-width:768px)
+{
+    .contenido-footer .menu_footer {
+        display: block;
+    }
 }
 
