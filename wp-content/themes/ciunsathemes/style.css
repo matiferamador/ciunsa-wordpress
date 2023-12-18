@@ -137,14 +137,26 @@ color: var(--blanco);
     padding: 5rem 0;
 }
 /* header */
-body.home .header {
+/* body.home .header {
     min-height: 20rem;   
+} */
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.widget-redes-sociales {
+    display: none;
 }
 @media (min-width: 768px) {
     body.home .header {
         height: auto;
         max-height: 40rem;
+    } 
+    .widget-redes-sociales {
+        display:block;
     }
+   
 }   
 .header {   
     background-color:var(--primario);
