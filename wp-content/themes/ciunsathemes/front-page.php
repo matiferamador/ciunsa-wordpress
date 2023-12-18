@@ -10,7 +10,7 @@ get_header();
         </div>  
     </section>
         <main class="contenedor seccion">
-            <section class=" seccion contenedor">
+            <section class="seccion">
                 <h3 class="text-secundario">Últimas Novedades</h3>
 
                 <ul class="listado-grid-novedades data-aos="fade-up data-aos-duration="3000">
