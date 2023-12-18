@@ -144,6 +144,7 @@ color: var(--blanco);
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-bottom: 3rem;
 }
 .widget-redes-sociales {
     display: none;
